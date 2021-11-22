@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/cloudrural/go-todo-rest-api-example/app/handler"
+	"github.com/cloudrural/go-todo-rest-api-example/app/model"
+	"github.com/cloudrural/go-todo-rest-api-example/config"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
-	"github.com/mingrammer/go-todo-rest-api-example/app/handler"
-	"github.com/mingrammer/go-todo-rest-api-example/app/model"
-	"github.com/mingrammer/go-todo-rest-api-example/config"
 )
 
 // App has router and db instances
